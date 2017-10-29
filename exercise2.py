@@ -1,3 +1,5 @@
+
+
 #Exercise 2: Write a program that uses input to prompt a user for their name and then welcomes them.
 #Enter your name: Chuck
 #Hello Chuck
@@ -42,5 +44,18 @@ print(divheight)
 #1 + 2 * 5
 
 precednet = 1+(2*5)
+
+Excerise 5:
+ 
+
 print (precedent)
 >>output :11
+  
+ # Ex 5:
+  #Exercise 5: Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.
+  celtemp = input ('Please enter the celsius tempertaure ')
+  ctemp = float(celtemp)
+  print(ctemp)
+  ftemp = ctemp × 1.8 + 32
+  print(ftemp)
+ 
