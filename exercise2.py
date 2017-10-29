@@ -2,7 +2,7 @@
 #Enter your name: Chuck
 #Hello Chuck
 nam = input('Enter your name\n')
-print =('Hello' nam)
+print('Hello',nam)
 
 #Exercise 3: Write a program to prompt the user for hours and rate per hour to compute gross pay.
 #Enter Hours: 35
