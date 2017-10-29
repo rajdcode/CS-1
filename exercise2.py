@@ -8,9 +8,13 @@ print('Hello',nam)
 #Enter Hours: 35
 #Enter Rate: 2.75
 #Pay: 96.25
-hrsworked = input('enter hours')
+hrsworked = input('enter hours')# input deliver type of string 
+a = float(hrsworked)# str to int 
+print(a)
 rate =input('enter rate per hour')
-Pay = hrsworked*rate
+b=float(rate)
+print(b)
+Pay = a*b
 print(Pay)
 
 #Exercise 4: Assume that we execute the following assignment statements:
