@@ -1,3 +1,10 @@
+Exercise 3: Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table:
+Score   Grade
+>= 0.9     A
+>= 0.8     B
+>= 0.7     C
+>= 0.6     D
+< 0.6    F
 #Exercise 1: Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
 #Enter Hours: 45
 #Enter Rate: 10
@@ -19,7 +26,7 @@ elif(hrsworked>40):
 #Error, please enter numeric input
 #Enter Hours: forty
 #Error, please enter numeric input
-hours = input('enter hours)
+hours = input('enter hours')
 rate = input('enter rate')
 try:
     hrs = int(hours)
@@ -30,3 +37,28 @@ try:
     print(Pay)
 except:
       print('Error, please enter numeric input')
+
+#Exercise 3: Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table:
+#Score   Grade
+#>= 0.9     A
+#>= 0.8     B
+#>= 0.7     C
+#>= 0.6     D
+#< 0.6    F
+ 
+ grade = input ('enter grade')
+ fgrade = float(grade)
+ print (fgrade)
+ if fgrade>0.0 and fgrade<1.0 and fgrade>=0.9 :
+       print('grade is A')
+    elif fgrade>=0.8 :
+              print('grade is B')
+    elif fgrade>=0.7 :
+              print('grade is C')
+    elif fgrade>=0.6 :
+              print('grade is D')
+    elif fgrad<=0.6 :
+              print('grade is F') 
+     else :
+        print('Bad score')
+  
